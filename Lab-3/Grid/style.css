@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "A B" "D D" "C C";
+  }
+  
+  p {
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  }
+  
+  .upperImage {
+    grid-area: A;
+    height: 40vh;
+  }
+
+  .upperText {
+    grid-area: B;
+    background: #dea217;
+    height: 40vh;
+  }
+
+  .upperText, .lowerText {
+    display: grid;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .lowerImage {
+    grid-area: C;
+    height: 30vh;
+  }
+
+  .lowerText {
+    grid-area: D;
+    background: #0d475d;
+    height: 30vh;
+  }
+  
+  .image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
