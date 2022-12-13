@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FreeDzen4U/Labs/Lab-7/static/css/main.25ef3d20.css",
+    "main.js": "/FreeDzen4U/Labs/Lab-7/static/js/main.ca20af60.js",
+    "index.html": "/FreeDzen4U/Labs/Lab-7/index.html",
+    "main.25ef3d20.css.map": "/FreeDzen4U/Labs/Lab-7/static/css/main.25ef3d20.css.map",
+    "main.ca20af60.js.map": "/FreeDzen4U/Labs/Lab-7/static/js/main.ca20af60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25ef3d20.css",
+    "static/js/main.ca20af60.js"
+  ]
+}
